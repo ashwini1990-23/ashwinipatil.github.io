@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwini Patil | Backend Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0f172a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0f172a;
+            border-bottom: 2px solid #e2e8f0;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .skills-list, .projects-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: #cbd5e1;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ashwini Patil</h1>
+        <p>Backend Developer | Node.js | Express | MongoDB | PostgreSQL | Docker</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Backend Developer with experience building REST APIs using Node.js and Express.
+            I have worked with MongoDB and PostgreSQL to design scalable database systems.
+            I enjoy solving real-world problems, optimizing backend performance, and building secure,
+            production-ready applications using Docker and modern development practices.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="card">
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, REST APIs, JWT Authentication</p>
+            </div>
+            <div class="card">
+                <h3>Databases</h3>
+                <p>MongoDB, PostgreSQL, SQL</p>
+            </div>
+            <div class="card">
+                <h3>DevOps & Tools</h3>
+                <p>Docker, Git, GitHub, CI/CD Basics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="card">
+                <h3>Contact Management API</h3>
+                <p>
+                    REST API with JWT authentication where users can register, login,
+                    and manage their own contacts with full CRUD functionality.
+                </p>
+            </div>
+            <div class="card">
+                <h3>User CRUD API (PostgreSQL)</h3>
+                <p>
+                    Basic CRUD API built with Node.js, Express, and PostgreSQL.
+                    Implemented validation using Joi and environment management with dotenv.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: ashwini.aski@gmail.com</p>
+        <a href="https://github.com/ashwini1990-23" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/ashwini-patil-developer" target="_blank">LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Ashwini Patil. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
